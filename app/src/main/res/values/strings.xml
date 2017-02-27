@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Level speed calculator</string>
+    <string name="url">https://www.jasonbase.com/things/L5z.json</string>
+</resources>

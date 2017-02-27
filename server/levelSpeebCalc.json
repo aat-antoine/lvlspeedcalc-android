@@ -1,0 +1,60 @@
+{
+    "$jason": {
+        "head": {
+            "title": "Pokemon go level speed calculator",
+            "actions": {
+                "$foreground": {
+                    "type": "$reload"
+                },
+                "$pull": {
+                    "type": "$reload"
+                }
+            }
+        },
+        "body": {
+            "header": {
+                "title": "MrRoboaat",
+                "style": {
+                    "background": "#ee5b5b",
+                    "color": "#ffffff"
+                }
+            },
+            "style": {
+                "background": "#ffffff",
+                "color": "#44696c",
+                "border": "none"
+            },
+            "sections": [
+                {
+                    "type": "vertical",
+                    "style": {
+                        "padding": "20",
+                        "spacing": "10",
+                        "align": "center"
+                    },
+                    "items": [
+                        {
+                            "type": "label",
+                            "text": "POKEMON GO LEVEL SPEED CALCULATOR",
+                            "style": {
+                                "size": "20"
+                            }
+                        },
+                        {
+                            "type": "textfield",
+                            "name": "xp",
+                            "palceholder": "xp",
+                            "style": {
+                                "spacing": "20"
+                            }
+                        },
+                        {
+                            "type": "label",
+                            "text": "Calculate"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

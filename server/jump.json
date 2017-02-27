@@ -1,0 +1,135 @@
+{
+    "$jason": {
+        "head": {
+            "title": "{ ˃̵̑ᴥ˂̵̑}",
+            "actions": {
+                "$foreground": {
+                    "type": "$reload"
+                },
+                "$pull": {
+                    "type": "$reload"
+                }
+            }
+        },
+        "body": {
+            "header": {
+            	"title": "MrRoboaat",
+                "style": {
+                    "background": "#2196f3",
+                    "color": "#ffffff"
+                }
+            },
+            "style": {
+                "background": "#ffffff",
+                "border": "none"
+            },
+            "sections": [
+                {
+                    "items": [
+                        {
+                            "type": "vertical",
+                            "style": {
+                                "padding": "30",
+                                "spacing": "20",
+                                "align": "center"
+                            },
+                            "components": [
+                            	{
+                                    "type": "label",
+                                    "text": "Hello MrRoboaat",
+                                    "style": {
+                                        "align": "center",
+                                        "font": "Roboto",
+                                        "size": "16",
+                                        "color": "#FF0000"
+                                    }
+                                },
+                                {
+                                	"type" : "image",
+                                	"url": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAlhAAAAJGU1ODg1ZDZmLWEyMDQtNDc4MC04NDk4LWE4OGYyZTRiNDk5MQ.jpg",
+                                	"style": {
+                                		"width": "200",
+                                		"height": "200"
+                                	}
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "It's ALIVE!",
+                                    "style": {
+                                        "align": "center",
+                                        "font": "Courier-Bold",
+                                        "size": "18"
+                                    }
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "This is a demo app. You can make your own app by changing the url inside settings.plist",
+                                    "style": {
+                                        "align": "center",
+                                        "font": "Courier",
+                                        "padding": "30",
+                                        "size": "14"
+                                    }
+                                },
+                                {
+                                    "type": "label",
+                                    "text": "{ ˃̵̑ᴥ˂̵̑}",
+                                    "style": {
+                                        "align": "center",
+                                        "font": "HelveticaNeue-Bold",
+                                        "size": "50"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "label",
+                            "style": {
+                                "align": "right",
+                                "padding": "10",
+                                "color": "#000000",
+                                "font": "HelveticaNeue",
+                                "size": "12"
+                            },
+                            "text": "Check out Live DEMO",
+                            "href": {
+                                "url": "https://jasonette.github.io/Jasonpedia/demo.json",
+                                "fresh": "true"
+                            }
+                        },
+                        {
+                            "type": "label",
+                            "style": {
+                                "align": "right",
+                                "padding": "10",
+                                "color": "#000000",
+                                "font": "HelveticaNeue",
+                                "size": "12"
+                            },
+                            "text": "Watch the tutorial video",
+                            "href": {
+                                "url": "https://www.youtube.com/watch?v=hfevBAAfCMQ",
+                                "view": "Web"
+                            }
+                        },
+                        {
+                            "type": "label",
+                            "style": {
+                                "align": "right",
+                                "padding": "10",
+                                "color": "#000000",
+                                "font": "HelveticaNeue",
+                                "size": "12"
+                            },
+                            "text": "View documentation",
+                            "href": {
+                                "url": "https://jasonette.github.io/documentation",
+                                "view": "Web"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
